@@ -1,6 +1,6 @@
 import React from 'react';
 import { LinkForm } from './components/LinkForm';
-import { Link } from 'lucide-react';
+import { Link as LinkIcon } from 'lucide-react';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className="bg-white rounded-xl shadow-xl p-8 w-full max-w-lg">
         <div className="flex items-center justify-center mb-8">
           <div className="bg-blue-500 p-3 rounded-full">
-            <Link className="w-6 h-6 text-white" />
+            <LinkIcon className="w-6 h-6 text-white" />
           </div>
           <h1 className="text-2xl font-bold ml-3 text-gray-800">Link Submitter</h1>
         </div>
